@@ -1,5 +1,7 @@
 import lib.Prueba.Ejercicio2 as p2
 import lib.Prueba.Ejercicio3 as p3
+import lib.Prueba.Ejercicio4 as p4
+import lib.Prueba.Ejercicio5 as p5
 import lib.Prueba.Ejercicio6 as p6
 import lib.Prueba.Ejercicio7 as p7
 if __name__=='__main__':
@@ -25,9 +27,25 @@ if __name__=='__main__':
             print(" Se esta ejecutando el Ejercicio 3")
             p3.Menu_iterativo_ej3()
         elif opcion=="4":
-            pass
+            print("---------------------------------------------------")
+            print(" Se esta ejecutando el Ejercicio 4")
+            e4=p4.Producto("Escritorio", "PERU-0001-2023")
+            e5=p4.Producto("Cuaderno", "ARGENTINA-0002-2023")
+            print("Permitira identificar el pais,lote y año  de los 2 registros que cree")
+            print("REGISTRO 1:")
+            print(e4)
+            print("REGISTRO 2:")
+            print(e5)
         elif opcion=="5":
-            pass
+            print("---------------------------------------------------")
+            print(" Se esta ejecutando el Ejercicio 5")
+            e5=p5.Producto("Escritorio", "PERU-0001-2023")
+            e6=p5.Producto("Cuaderno", "ARGENTINA00022023")
+            print("ESTE CODIGO PERMITIRA VERIFICAR SI LOS DOS REGISTRADOS INGRESADOS SON CORRECTOS")
+            print("REGISTRO 1:")
+            print(e5)
+            print("REGISTRO 2:")
+            print(e6)
         elif opcion=="6":
             print("---------------------------------------------------")
             peli1=p6.Pelicula("Hombre Araña x",120,2020,"terror")

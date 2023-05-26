@@ -1,6 +1,7 @@
 """5. para la pregunta 4 al importar la funciones usar el manejo de errores (try ,except) y en las
 sentencias de “ else “ imprimir la ruta del directorio de trabajo os.getcwd() y en la sentencia
-finally imprimir “proceso terminado”"""
+finally imprimir “proceso terminado
+”"""
 
 import os
 class Producto:
